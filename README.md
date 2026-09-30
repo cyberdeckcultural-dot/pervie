@@ -1,4 +1,4 @@
-# 🟢 PERVIE — Ecossistema Cultural Soberano
+# 🟢 A PERVIE — Ecossistema Cultural Soberano
 
 > **Plataforma decolonial, independente e tática de conexão, autonomia e circulação artística brasileira.**
 
@@ -6,7 +6,7 @@
 
 ## 📌 Visão Geral & Manifesto
 
-A **Pervie** é uma plataforma e ecossistema digital *mobile-first* e *audio-first* projetada para libertar a produção cultural brasileira da dependência de redes centralizadas de Big Techs, algoritmos de engajamento forçado e extrativismo de dados.
+A **Pervie** é uma plataforma e ecossistema digital *mobile-first* e *audio-first* projetada para libertar a produção cultural brasileira da dependência de redes centralizadas de Big Tech, algoritmos de engajamento forçado e extrativismo de dados.
 
 Inspirada na lógica comunitária e na rede de confiança de plataformas históricas (como o Orkut), a Pervie prioriza a **reputação validada por pares**, a **comunicação direta soberana (Mandar Salve)** e o **consumo consciente de dados** (otimizado para redes móveis 3G/4G).
 
@@ -26,7 +26,7 @@ Inspirada na lógica comunitária e na rede de confiança de plataformas histór
 
 ### 👤 Recursos Soberanos do Perfil do Artista
 * **Cartão de Identidade Artística:** Nome, avatar, etiqueta de função (ex: *DJ / Produtora Sonora*), território/localização e minibio de até 500 caracteres.
-* **Bastidores do Artista:** Laboratório pessoal e diário de bordo do perfil. Compartilhamento de áudios brutos (até 3 min), beats, ensaios e rascunhos do processo criativo.
+* **Bastidores do Artista:** Laboratório pessoal e diário de bordo do perfil. Espaço livre para compartilhamento de áudios brutos (até 3 min), fotos, vídeos, links, beats, ensaios e rascunhos do processo criativo.
 * **Álbum de Mídia (Portfólio Tático):** Galeria de destaque do artista com espaço para até 6 fotos em alta qualidade e até 3 vídeos curtos (drops de até 15 segundos em 1080p).
 * **Mandar Salve:** Canal direto de contato (WhatsApp, Telegram, Signal, E-mail) sem intermediários algorítmicos.
 * **Rede de Depoimentos:** Sistema de validação por pares e reputação comunitária (com aprovação prévia pelo perfil).
