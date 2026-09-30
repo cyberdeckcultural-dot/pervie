@@ -6,13 +6,13 @@
 
 ## 📌 Visão Geral & Manifesto
 
-O **Pervie** é um ecossistema digital *mobile-first* e *audio-first* projetado para libertar a produção cultural brasileira da dependência de plataformas centralizadas de Big Tech, algoritmos de engajamento forçado e extrativismo de dados.
+A **Pervie** é uma plataforma e ecossistema digital *mobile-first* e *audio-first* projetada para libertar a produção cultural brasileira da dependência de redes centralizadas de Big Techs, algoritmos de engajamento forçado e extrativismo de dados.
 
-Inspirado na lógica comunitária e na rede de confiança de plataformas históricas (como o Orkut), o Pervie prioriza a **reputação validada por pares**, a **comunicação direta soberana (Mandar Salve)** e o **consumo consciente de dados** (otimizado para redes móveis 3G/4G).
+Inspirada na lógica comunitária e na rede de confiança de plataformas históricas (como o Orkut), a Pervie prioriza a **reputação validada por pares**, a **comunicação direta soberana (Mandar Salve)** e o **consumo consciente de dados** (otimizado para redes móveis 3G/4G).
 
 ---
 
-## 🎛️ Arquitetura de Salas & Recursos do Perfil
+## 🎛️ Arquitetura de Salas, Recursos & Interação
 
 ### 🛰️ Salas Globais de Convergência
 * **`[FREQ 01]` Encruzilhada:** Espaço de convergência e colabs. Pontes entre artistas, produtores, VJs e criadores independentes para cooperação justa.
@@ -20,17 +20,23 @@ Inspirado na lógica comunitária e na rede de confiança de plataformas histór
 * **`[FREQ 03]` Memória Viva:** Acervo e pesquisa. Preservação de fanzines, ensaios decoloniais, registros históricos e saberes tradicionais sem pasteurização corporativa.
 * **`[🔴 AO VIVO]` Sintonia Ao Vivo:** Rádio tática comunitária (*Audio-First* / WebRTC) com baixo consumo de dados e suporte a transmissões de VJ/lo-fi.
 
+### 💬 Regra Tática de Interação e Comentários
+* **Nas Transmissões:** O áudio, texto e mídias visuais são os protagonistas do post principal.
+* **Nos Comentários:** Threads ágeis e leves baseadas em **Texto, Emojis e Figurinhas/Stickers Táticos**. Sem suporte a comentários em áudio ou vídeo para preservar a franquia de dados e evitar poluição sonora.
+
 ### 👤 Recursos Soberanos do Perfil do Artista
+* **Cartão de Identidade Artística:** Nome, avatar, etiqueta de função (ex: *DJ / Produtora Sonora*), território/localização e minibio de até 500 caracteres.
 * **Bastidores do Artista:** Laboratório pessoal e diário de bordo do perfil. Compartilhamento de áudios brutos (até 3 min), beats, ensaios e rascunhos do processo criativo.
+* **Álbum de Mídia (Portfólio Tático):** Galeria de destaque do artista com espaço para até 6 fotos em alta qualidade e até 3 vídeos curtos (drops de até 15 segundos em 1080p).
 * **Mandar Salve:** Canal direto de contato (WhatsApp, Telegram, Signal, E-mail) sem intermediários algorítmicos.
 * **Rede de Depoimentos:** Sistema de validação por pares e reputação comunitária (com aprovação prévia pelo perfil).
-* **Pasta Privada "Salvos":** Espaço secreto para marcação e organização de oportunidades e referências.
+* **Pasta Privada "Salvos":** Espaço secreto para marcação e organização de oportunidades, contatos e referências.
 
 ---
 
 ## 📚 Matriz Teórica & Decolonial (12 Pesquisadores Brasileiros)
 
-O Pervie foi desenhado sobre as bases conceituais de 12 intelectuais e pesquisadores brasileiros:
+A Pervie foi desenhada sobre as bases conceituais de 12 intelectuais e pesquisadores brasileiros:
 
 1. **Rita Von Hunty / Guy Debord:** Crítica à espetacularização e mercantilização da arte.
 2. **Denise Ferreira da Silva:** Poética Negra e desconstrução da arquitetura colonial de valor.
@@ -66,11 +72,11 @@ O Pervie foi desenhado sobre as bases conceituais de 12 intelectuais e pesquisad
 
 ## 🗄️ Estrutura do Banco de Dados (Supabase PostgreSQL)
 
-* `profiles`: Cadastros de artistas, bio, etiquetas funcionais e canal de preferência de contato.
+* `profiles`: Cadastros de artistas, bio, etiquetas funcionais, mídias de portfólio e canal de preferência de contato.
 * `posts`: Transmissões e publicações divididas por sala (`bastidores`, `encruzilhada`, `o_corre`, `memoria_viva`).
 * `testimonials`: Depoimentos de reputação (sistema de aprovação prévia pelo perfil).
 * `saved_posts`: Coleção privada de marcações (*bookmarks*) de cada artista.
-* `comments`: Threads de comentários e respostas nas transmissões.
+* `comments`: Threads leves de comentários por texto, emojis e figurinhas.
 
 ---
 
