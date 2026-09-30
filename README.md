@@ -12,13 +12,19 @@ Inspirado na lógica comunitária e na rede de confiança de plataformas histór
 
 ---
 
-## 🎛️ Arquitetura das Salas & Frequências
+## 🎛️ Arquitetura de Salas & Recursos do Perfil
 
-* **`[FREQ 01]` Bastidores DJOWW:** Espaço de rascunho, teste e erro. Compartilhamento de áudios brutos (até 3 min), beats, ensaios e processos criativos sem julgamento.
-* **`[FREQ 02]` Encruzilhada:** Espaço de convergência e colabs. Pontes entre artistas, produtores, VJs e criadores independentes para cooperação justa.
-* **`[FREQ 03]` O Corre:** Canal de viabilidade financeira. Mapeamento de editais ativos, chamadas públicas, leis de fomento e guias de gestão/MEI.
-* **`[FREQ 04]` Memória Viva:** Acervo e pesquisa. Preservação de fanzines, ensaios decoloniais, registros históricos e saberes tradicionais sem pasteurização corporativa.
+### 🛰️ Salas Globais de Convergência
+* **`[FREQ 01]` Encruzilhada:** Espaço de convergência e colabs. Pontes entre artistas, produtores, VJs e criadores independentes para cooperação justa.
+* **`[FREQ 02]` O Corre:** Canal de viabilidade financeira. Mapeamento de editais ativos, chamadas públicas, leis de fomento e guias de gestão/MEI.
+* **`[FREQ 03]` Memória Viva:** Acervo e pesquisa. Preservação de fanzines, ensaios decoloniais, registros históricos e saberes tradicionais sem pasteurização corporativa.
 * **`[🔴 AO VIVO]` Sintonia Ao Vivo:** Rádio tática comunitária (*Audio-First* / WebRTC) com baixo consumo de dados e suporte a transmissões de VJ/lo-fi.
+
+### 👤 Recursos Soberanos do Perfil do Artista
+* **Bastidores do Artista:** Laboratório pessoal e diário de bordo do perfil. Compartilhamento de áudios brutos (até 3 min), beats, ensaios e rascunhos do processo criativo.
+* **Mandar Salve:** Canal direto de contato (WhatsApp, Telegram, Signal, E-mail) sem intermediários algorítmicos.
+* **Rede de Depoimentos:** Sistema de validação por pares e reputação comunitária (com aprovação prévia pelo perfil).
+* **Pasta Privada "Salvos":** Espaço secreto para marcação e organização de oportunidades e referências.
 
 ---
 
@@ -61,7 +67,7 @@ O Pervie foi desenhado sobre as bases conceituais de 12 intelectuais e pesquisad
 ## 🗄️ Estrutura do Banco de Dados (Supabase PostgreSQL)
 
 * `profiles`: Cadastros de artistas, bio, etiquetas funcionais e canal de preferência de contato.
-* `posts`: Transmissões e publicações divididas por sala (`bastidores_djoww`, `encruzilhada`, `o_corre`, `memoria_viva`).
+* `posts`: Transmissões e publicações divididas por sala (`bastidores`, `encruzilhada`, `o_corre`, `memoria_viva`).
 * `testimonials`: Depoimentos de reputação (sistema de aprovação prévia pelo perfil).
 * `saved_posts`: Coleção privada de marcações (*bookmarks*) de cada artista.
 * `comments`: Threads de comentários e respostas nas transmissões.
